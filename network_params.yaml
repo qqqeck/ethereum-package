@@ -20,7 +20,7 @@ participants:
     cl_extra_labels: {}
     cl_extra_params: []
     cl_tolerations: []
-    cl_volume_size: 0
+    cl_volume_size: 10
     cl_min_cpu: 0
     cl_max_cpu: 0
     cl_min_mem: 0
