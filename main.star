@@ -72,7 +72,7 @@ def run(plan, args={}):
     Args:
         args: A YAML or JSON argument to configure the network; example https://github.com/ethpandaops/ethereum-package/blob/main/network_params.yaml
     """
-
+    plan.print("Starting the network launch")
     args_with_right_defaults = input_parser.input_parser(plan, args)
 
     num_participants = len(args_with_right_defaults.participants)
