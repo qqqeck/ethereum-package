@@ -114,7 +114,7 @@ def get_config(
     port_publisher,
     participant_index,
 ):
-    print("shit")
+    plan.print("shit")
     if (
         "--gcmode=archive" in participant.el_extra_params
         or "--gcmode archive" in participant.el_extra_params
